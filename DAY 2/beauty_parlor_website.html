@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Parlor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #ff6f61;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #ff6f61;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Beauty Parlor</h1>
+    </header>
+    
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Haircut</li>
+            <li>Facial</li>
+            <li>Manicure</li>
+            <li>Pedicure</li>
+            <li>Makeup</li>
+        </ul>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Haircut</td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td>Facial</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Manicure</td>
+                <td>$20</td>
+            </tr>
+            <tr>
+                <td>Pedicure</td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td>Makeup</td>
+                <td>$40</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="business-hours">
+        <h2>Business Hours</h2>
+        <p>Monday - Friday: 9 AM - 7 PM</p>
+        <p>Saturday: 10 AM - 5 PM</p>
+        <p>Sunday: Closed</p>
+    </section>
+
+    <section id="location">
+        <h2>Location</h2>
+        <p>123 Beauty St, Glamour City, CA 90210</p>
+        <p><a href="https://www.google.com/maps" target="_blank">View on Google Maps</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@beautyparlor.com</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <img src="image1.jpg" alt="Gallery Image 1">
+        <img src="image2.jpg" alt="Gallery Image 2">
+        <img src="image3.jpg" alt="Gallery Image 3">
+    </section>
+
+    <section id="appointment">
+        <h2>Appointment Booking</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date" required><br>
+            <label for="time">Time:</label><br>
+            <input type="time" id="time" name="time" required><br>
+            <input type="submit" value="Book Appointment">
+        </form>
+    </section>
+
+    <section id="promotions">
+        <h2>Promotions</h2>
+        <p>Get 20% off on your first visit!</p>
+    </section>
+</body>
+</html>
